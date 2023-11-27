@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing source order</title>
+    <style>
+        .wrapper{
+            width:90%;
+            display:flex;
+            background-color: aquamarine;
+            justify-content: space-around;
+        }
+
+        .flex1{
+            background: red;
+            order:3
+        }
+        .flex2{
+            background: green;
+            order:4
+        }
+        .flex3{
+            background: pink;
+            order:-1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="flex1">Lorem ipsum dolor sit amet, consectetur adipisicing elitt</div>
+        <div class="flex2">Lorem ipsum dolor sit amet, consectetur adipisicing elitt</div>
+        <div class="flex3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+    </div>
+</body>
+</html>

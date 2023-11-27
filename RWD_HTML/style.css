@@ -1,0 +1,29 @@
+.container{
+    background-color: black;
+    width:90%;
+    height:500px;
+
+}
+
+.header{
+    background-color: green;
+    width:77.77777777777778%;
+    height:400px;
+    
+}
+
+.left{
+    background-color: yellow;
+    width:42.85714285714286%;
+    height:200px;
+    float: left;
+    
+}
+
+.right{
+    background-color: red;
+    width:57.14285714285714%;
+    height:300px;
+    float: right;
+    
+}

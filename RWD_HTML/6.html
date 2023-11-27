@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rwd flex direction</title>
+    <style>
+        .menu{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        @media screen and (max-width:600px){
+            .menu{
+                flex-direction: column;
+                align-items: center;
+            }
+            
+        }
+
+        .list-item, .last-item{
+            padding:10px;
+        }
+        
+    
+    </style>
+    
+</head>
+<body>
+    <body>
+        <div class="menu">
+            <a href="" class="list-item">Home</a>
+            <a href="" class="list-item">News</a>
+            <a href="" class="list-item">Images</a>
+            <a href="" class="list-item">About</a>
+            <a href="" class="last-item">Contact</a>
+        </div>
+    </body>
+</body>
+</html>

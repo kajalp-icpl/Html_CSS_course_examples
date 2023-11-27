@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alignment</title>
+    <style>
+        .main{
+            display: flex;
+            background-color: black;
+            height:200px;
+            width: 400px;
+            align-items: center;
+        }
+
+        .inner, .self{
+            background-color: blueviolet;
+            display: flex;
+            height:100px;
+            width: 200px;
+        
+        }
+
+        .self{
+            align-self: flex-start;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="inner"> I am a content in the innerflex-box</div>
+        <div class="inner"> I am a content in the innerflex-box</div>
+        <div class="self"> I am a content in the innerflex-box</div>
+
+    </div>
+</body>
+</html>

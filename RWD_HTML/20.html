@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .left{
+            float:left;
+            background-color: blue;
+            width:20%;
+        }
+        .center{
+            float:left;
+            background-color: green;
+            width:60%;
+        }
+        .right{
+            float:left;
+            background-color:grey;
+            width:20%;
+        }
+
+        @media screen and (max-width:600px){
+           .left, .center, .right{
+            width:100%;
+           } 
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Queries</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, quod.</p>
+    <div class="left"><p>Left Menu</p></div>
+    <div class="center"><p>Main Content</p></div>
+    <div class="right"><p>Right Menu</p></div>
+</body>
+</html>
